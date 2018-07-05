@@ -1,0 +1,16 @@
+body{
+  background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
+
+}
+
+div {
+
+  width: 900px;
+  height: 100%;
+  margin-left: 15%;
+}
+section{
+  background-color: #5b7989;
+  color: white;
+}
