@@ -1,0 +1,93 @@
+*{
+  margin: 0;
+}
+body{
+  background-color: #02010a;
+  font-family: 'Dancing Script', cursive;
+  font-size: 1.3em;
+}
+/*cabecera*/
+.contenido {
+
+  width: 900px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 0px;
+
+}
+#cabecera {
+  background-color: #5b7989;
+  color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+  padding-top:  0.5em;
+  padding-bottom: 0.5em;
+  display: flex;
+
+}
+#cabecera h1{
+  text-shadow: 2px 2px 2px #02010a;
+  margin-right: 40%;
+  margin-left: auto;
+}
+
+#cabecera nav {
+  text-align: right;
+  margin: 1%;
+}
+
+#cabecera a{
+  color: white;
+}
+a[href^='paisajes']{
+  text-decoration: none;
+}
+
+/*imagenes secundarias*/
+#imagenSecundarias{
+  display: flex;
+  flex-direction: row;
+  background-color: #d5c75f;
+  padding: 0.5em;
+
+}
+.imagen2 {
+  width: 90%;
+  border: 2px solid;
+  box-shadow: 2px 2px 5px #82c3a6;
+}
+
+.imagen3 {
+  width: 85%;
+  border: 2px solid;
+  box-shadow: 1px 1px 3px #82c3a6;
+}
+
+
+
+/*pie de pagina*/
+#PiePagina{
+  background-color: #C6d5c5;
+  display: flex;
+  flex-direction: row;
+  word-spacing: normal;
+  padding: 0.5em;
+  border-bottom-left-radius:10px;
+  border-bottom-right-radius: 10px;
+}
+.contacto{
+  margin: auto;
+}
+.termino{
+  margin: auto;
+}
+.redes{
+  margin: auto;
+}
+.redes a{
+  color: black;
+}
+.derechos{
+  margin: auto;
+}
