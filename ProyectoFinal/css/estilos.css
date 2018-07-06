@@ -26,10 +26,12 @@ body{
 }
 #cabecera h1{
   text-shadow: 2px 2px 2px #02010a;
+  margin: auto;
 }
 
 #cabecera nav {
   text-align: right;
+  margin: auto;
 }
 
 #cabecera a{
@@ -94,4 +96,25 @@ a[href^='index']{
 }
 #img3 :hover{
   animation: translacion 2s;
+}
+
+/*pie de pagina*/
+#PiePagina{
+  background-color: #C6d5c5;
+  display: flex;
+  flex-direction: row;
+  word-spacing: normal;
+  padding: 0.5em;
+}
+.contacto{
+  margin: auto;
+}
+.termino{
+  margin: auto;
+}
+.redes{
+  margin: auto;
+}
+.derechos{
+  margin: auto;
 }
