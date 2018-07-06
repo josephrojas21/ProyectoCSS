@@ -40,7 +40,7 @@ body{
 #cabecera a{
   color: white;
 }
-a[href^='paisajes']{
+a[href^='retratos']{
   text-decoration: none;
 }
 
