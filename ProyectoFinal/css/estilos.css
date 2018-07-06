@@ -2,20 +2,29 @@ body{
   background-color: #02010a;
   font-family: 'Dancing Script', cursive;
   font-size: 1.5em;
-
 }
 
-div {
+.contenido {
 
   width: 900px;
   height: 100%;
-  margin-left: 15%;
+  margin: 0 auto;
+  margin-top: -30px;
 }
-section {
+.cabecera {
   background-color: #5b7989;
   color: white;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
-.menu{
+.cabecera h1{
+  text-shadow: 2px 2px 2px #02010a;
+}
+.menu nav {
+  text-align: right;
+  height: 100%
+}
+
+.menu a{
   color: white;
-  text-align: center;
 }
