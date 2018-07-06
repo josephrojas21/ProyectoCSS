@@ -1,3 +1,6 @@
+*{
+  margin: 0;
+}
 body{
   background-color: #02010a;
   font-family: 'Dancing Script', cursive;
@@ -10,23 +13,25 @@ body{
   height: 100%;
   margin: 0 auto;
   margin-top: 0px;
+
 }
 #cabecera {
   background-color: #5b7989;
   color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+  width: 100%;
+  padding: 0.5em;
 
 }
 #cabecera h1{
   text-shadow: 2px 2px 2px #02010a;
-  display: inline;
 }
+
 #cabecera nav {
   text-align: right;
-  height: 100%
-
 }
+
 #cabecera a{
   color: white;
 }
@@ -35,5 +40,57 @@ a[href^='index']{
 }
 /*imagen central*/
 #imagenCentral img{
-  width: 50%;
+  width: 90%;
+  margin: 1.5em;
+  padding: 0.5em;
+
+
+}
+#imagenCentral{
+  background-color: #82c3a6;
+  width: 100%;
+}
+/*imagenes secundarias*/
+#imagenSecundarias{
+  display: flex;
+  flex-direction: row;
+  background-color: #d5c75f;
+  border: 1px solid ;
+  padding: 0.5em;
+
+}
+.imagen2 {
+  width: 85%;
+
+
+}
+
+.imagen3 {
+  width: 85%;
+
+}
+#imagenSecundarias figure{
+  text-align:center;
+}
+@-webKit-keyframes rotacion{
+  from{
+
+  }
+  to{
+    transform: rotate(10deg);
+  }
+}
+#img2 :hover{
+  animation: rotacion 2s;
+}
+@-webKit-keyframes translacion{
+  from{
+
+  }
+  to{
+    transform: translate(5px,-20px);
+  }
+}
+#img3 :hover{
+  animation: translacion 2s;
 }
