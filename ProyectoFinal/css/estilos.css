@@ -3,28 +3,37 @@ body{
   font-family: 'Dancing Script', cursive;
   font-size: 1.5em;
 }
-
+/*cabecera*/
 .contenido {
 
   width: 900px;
   height: 100%;
   margin: 0 auto;
-  margin-top: -30px;
+  margin-top: 0px;
 }
-.cabecera {
+#cabecera {
   background-color: #5b7989;
   color: white;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
+
 }
-.cabecera h1{
+#cabecera h1{
   text-shadow: 2px 2px 2px #02010a;
+  display: inline;
 }
-.menu nav {
+#cabecera nav {
   text-align: right;
   height: 100%
-}
 
-.menu a{
+}
+#cabecera a{
   color: white;
+}
+a[href^='index']{
+  text-decoration: none;
+}
+/*imagen central*/
+#imagenCentral img{
+  width: 50%;
 }
