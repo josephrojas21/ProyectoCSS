@@ -44,7 +44,6 @@ a[href^='index']{
   margin: 1.5em;
   padding: 0.5em;
 
-
 }
 #imagenCentral{
   background-color: #82c3a6;
@@ -61,17 +60,19 @@ a[href^='index']{
 }
 .imagen2 {
   width: 85%;
-
-
+  border: 2px solid;
+  box-shadow: 2px 2px 5px #82c3a6;
 }
 
 .imagen3 {
   width: 85%;
-
+  border: 2px solid;
+  box-shadow: 1px 1px 3px #82c3a6;
 }
 #imagenSecundarias figure{
   text-align:center;
 }
+/*animacion de las imagenes secundarias*/
 @-webKit-keyframes rotacion{
   from{
 
