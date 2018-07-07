@@ -91,3 +91,59 @@ a[href^='paisajes']{
 .redes a{
   color: black;
 }
+
+@media  (max-width: 400px){
+  #cabecera{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+
+  }
+  #cabecera nav {
+    text-align: center;
+  }
+  #imagenes{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+  #PiePagina{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+  .contenido {
+  width: 100%;
+  margin: auto;
+  flex-direction:column;
+
+  }
+}
+
+@media  (min-width: 401px) and (max-width:900px){
+  #cabecera{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+
+  }
+  #cabecera nav {
+    text-align: center;
+  }
+  #imagenes{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+  #PiePagina{
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .contenido {
+  width: 100%;
+  margin: auto;
+  flex-direction:column;
+
+  }
+}

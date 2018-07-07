@@ -57,6 +57,7 @@ a[href^='index']{
 #imagenCentral{
   background-color: #82c3a6;
   width: 100%;
+  display: flex;
 }
 /*imagenes secundarias*/
 #imagenSecundarias{
@@ -125,21 +126,35 @@ a[href^='index']{
 
 
 }
-@media (min-width: 800px) {
-#cabecera {
-width: 100%;
-}
+@media  (max-width: 400px){
+  #cabecera{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
 
-#imagenCentral {
-width: 100%;
-}
+  }
+  #cabecera nav {
+    text-align: center;
+  }
+  #imagenCentral{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+  #imagenSecundarias{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+  #PiePagina{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+  .contenido {
+  width: 100%;
+  margin: auto;
+  flex-direction:column;
 
-#imagenSecundarias, #PiePagina{
-width: 100%;
-}
-.contenido {
-width: 800px;
-margin-left: auto;
-margin-right: auto;
-}
+  }
 }

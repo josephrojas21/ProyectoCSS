@@ -95,12 +95,11 @@ a[href^='retratos']{
 .redes a{
   color: black;
 }
-@media only screen and (max-width: 400px){
+@media  (max-width: 400px){
   #cabecera{
     width: 100%;
     flex-direction: column;
     margin: auto;
-    flex-wrap: wrap;
 
   }
   #cabecera nav {
@@ -117,31 +116,37 @@ a[href^='retratos']{
     margin: auto;
   }
   .contenido {
-  width: 800px;
-  margin-left: auto;
-  margin-right: auto;
-  flex-direction:
+  width: 100%;
+  margin: auto;
+  flex-direction:column;
 
   }
 }
 
-@media only screen and (max-width: 400px) {
- .imagen1{
-   width:100%;
- }
- .imagen2{
-   width:100%;
- }
- .imagen3{
-   width:100%;
- }
- .imagen4{
-   width:100%;
- }
-  .imagen5{
-   width:100%;
- }
-  .imagen6{
-   width:100%;
- }
+@media  (min-width: 401px) and (max-width:900px){
+  #cabecera{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+
+  }
+  #cabecera nav {
+    text-align: center;
+  }
+  #imagenes{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+  }
+  #PiePagina{
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .contenido {
+  width: 100%;
+  margin: auto;
+  flex-direction:column;
+
+  }
 }
