@@ -12,7 +12,7 @@ body{
   width: 900px;
   height: 100%;
   margin: 0 auto;
-  margin-top: 0;
+  margin-top: 0px;
   -webkit-flex-flow: row wrap;
 	flex-flow: row wrap;
   display: -webkit-flex;
@@ -49,7 +49,7 @@ a[href^='index']{
 }
 /*imagen central*/
 #imagenCentral img{
-  width: 90%;
+  width: 85%;
   margin: 1.5em;
   padding: 0.5em;
 
@@ -58,6 +58,7 @@ a[href^='index']{
   background-color: #82c3a6;
   width: 100%;
   display: flex;
+  flex-direction: row;
 }
 /*imagenes secundarias*/
 #imagenSecundarias{
@@ -65,7 +66,7 @@ a[href^='index']{
   flex-direction: row;
   background-color: #d5c75f;
   padding: 0.5em;
-
+  width: 100%
 }
 .imagen2 {
   width: 90%;
@@ -82,7 +83,7 @@ a[href^='index']{
   text-align:center;
 }
 /*animacion de las imagenes secundarias*/
-@-webKit-keyframes rotacion{
+@-webkit-keyframes rotacion{
   from{
 
   }
@@ -93,7 +94,7 @@ a[href^='index']{
 #img2 :hover{
   animation: rotacion 2s;
 }
-@-webKit-keyframes translacion{
+@-webkit-keyframes translacion{
   from{
 
   }
@@ -124,9 +125,50 @@ a[href^='index']{
   color: black;
 }
 
+/*media queries*/
+@media  (max-width: 420px){
+  #cabecera{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+    padding-right: 1em;
+  }
+  #cabecera nav {
+    text-align: center;
+  }
+  #imagenCentral{
+    width: 100%;
+    flex-direction: column;
+    margin: auto;
+    padding-right: 1em;
+  }
+  #imagenSecundarias{
+    width: 100%;
+    flex-direction: column;
+    margin:auto;
 
+  }
+  .imagen2{
+    width: 75%;
+  }
+  .imagen3{
+    width: 75%;
+  }
+
+  #PiePagina{
+    width: 100%;
+    flex-wrap: wrap;
+    margin: auto;
+  }
+  .contenido {
+  width: 100%;
+  margin: auto;
+  flex-direction:column;
+
+  }
 }
-@media  (max-width: 400px){
+
+@media  (min-width: 421px) and (max-width:900px){
   #cabecera{
     width: 100%;
     flex-direction: column;
@@ -146,9 +188,16 @@ a[href^='index']{
     flex-direction: column;
     margin: auto;
   }
+  .imagen2{
+    width: 75%;
+  }
+  .imagen3{
+    width: 75%;
+  }
+
   #PiePagina{
     width: 100%;
-    flex-direction: column;
+    flex-wrap: wrap;
     margin: auto;
   }
   .contenido {

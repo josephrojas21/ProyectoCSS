@@ -95,6 +95,10 @@ a[href^='retratos']{
 .redes a{
   color: black;
 }
+
+
+
+/*media queries*/
 @media  (max-width: 400px){
   #cabecera{
     width: 100%;
