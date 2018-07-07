@@ -99,7 +99,7 @@ a[href^='paisajes']{
     width: 100%;
     flex-direction: column;
     margin: auto;
-
+    padding-right: 1em;
   }
   #cabecera nav {
     text-align: center;
@@ -127,6 +127,7 @@ a[href^='paisajes']{
     width: 100%;
     flex-direction: column;
     margin: auto;
+    padding-right: 1em;
 
   }
   #cabecera nav {
@@ -148,4 +149,20 @@ a[href^='paisajes']{
   flex-direction:column;
 
   }
+}
+/*animacion de slidein*/
+@-webkit-keyframes slidein{
+  0%{
+    margin-top: 150%;
+  }
+  60%{
+    margin-top: -5%;
+  }
+  100%{
+    margin-top: 0%;
+  }
+}
+
+.contenido{
+  animation: slidein 1s;
 }
